@@ -4,22 +4,62 @@ const Skills = () => {
     const services = [
         {
             iconSrc: '/imgs/pencil-case.svg',
-            title: 'Adipisicing',
+            title: 'Java',
             subtitle: 'Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.'
         },
         {
             iconSrc: '/imgs/responsive.svg',
-            title: 'Sapiente',
+            title: 'Spring boot',
             subtitle: 'Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.'
         },
         {
             iconSrc: '/imgs/toolbox.svg',
-            title: 'Placeat',
+            title: 'Spring',
             subtitle: 'Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.'
         },
         {
             iconSrc: '/imgs/analytics.svg',
-            title: 'Iusto',
+            title: 'JPA',
+            subtitle: 'Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.'
+        },
+        {
+            iconSrc: '/imgs/analytics.svg',
+            title: 'Thymeleaf',
+            subtitle: 'Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.'
+        },
+        {
+            iconSrc: '/imgs/analytics.svg',
+            title: 'React',
+            subtitle: 'Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.'
+        },
+        {
+            iconSrc: '/imgs/analytics.svg',
+            title: 'Redux',
+            subtitle: 'Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.'
+        },
+        {
+            iconSrc: '/imgs/analytics.svg',
+            title: 'Redux',
+            subtitle: 'Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.'
+        },
+        {
+            iconSrc: '/imgs/analytics.svg',
+            title: 'Redux',
+            subtitle: 'Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.'
+        },
+        {
+            iconSrc: '/imgs/analytics.svg',
+            title: 'Redux',
+            subtitle: 'Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.'
+        },
+        {
+            iconSrc: '/imgs/analytics.svg',
+            title: 'Redux',
+            subtitle: 'Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.'
+        },
+        {
+            iconSrc: '/imgs/analytics.svg',
+            title: 'Redux',
             subtitle: 'Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.'
         }
     ];
@@ -31,7 +71,7 @@ const Skills = () => {
                 <h6 className="section-title mb-6">Skills</h6>
                 <div className="row">
                     {services.map((service, index) => (
-                        <div key={index} className="col-md-6 col-lg-3">
+                        <div key={index} className="col-md-6 col-lg-3" style={{marginBottom: '1%'}}>
                             <div className="service-card">
                                 <div className="body">
                                     <img src={service.iconSrc} alt="Icon" className="icon" />
