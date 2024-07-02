@@ -3,63 +3,63 @@ import React from 'react';
 const Skills = () => {
     const services = [
         {
-            iconSrc: '/imgs/pencil-case.svg',
+            iconSrc: '/imgs/java.svg',
             title: 'Java',
             subtitle: 'Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.'
         },
         {
-            iconSrc: '/imgs/responsive.svg',
+            iconSrc: '/imgs/springboot.png',
             title: 'Spring boot',
             subtitle: 'Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.'
         },
         {
-            iconSrc: '/imgs/toolbox.svg',
+            iconSrc: '/imgs/spring.svg',
             title: 'Spring',
             subtitle: 'Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.'
         },
         {
-            iconSrc: '/imgs/analytics.svg',
-            title: 'JPA',
+            iconSrc: '/imgs/mysql.svg',
+            title: 'MySql',
             subtitle: 'Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.'
         },
         {
-            iconSrc: '/imgs/analytics.svg',
-            title: 'Thymeleaf',
-            subtitle: 'Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.'
-        },
-        {
-            iconSrc: '/imgs/analytics.svg',
+            iconSrc: '/imgs/react.svg',
             title: 'React',
             subtitle: 'Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.'
         },
         {
-            iconSrc: '/imgs/analytics.svg',
+            iconSrc: '/imgs/redux.svg',
             title: 'Redux',
             subtitle: 'Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.'
         },
         {
-            iconSrc: '/imgs/analytics.svg',
-            title: 'Redux',
+            iconSrc: '/imgs/js.svg',
+            title: 'Java Script',
             subtitle: 'Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.'
         },
         {
-            iconSrc: '/imgs/analytics.svg',
-            title: 'Redux',
+            iconSrc: '/imgs/aws.svg',
+            title: 'AWS',
             subtitle: 'Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.'
         },
         {
-            iconSrc: '/imgs/analytics.svg',
-            title: 'Redux',
+            iconSrc: '/imgs/ApacheTomcat.svg',
+            title: 'Apache Tomcat',
             subtitle: 'Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.'
         },
         {
-            iconSrc: '/imgs/analytics.svg',
-            title: 'Redux',
+            iconSrc: '/imgs/docker.svg',
+            title: 'Docker',
             subtitle: 'Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.'
         },
         {
-            iconSrc: '/imgs/analytics.svg',
-            title: 'Redux',
+            iconSrc: '/imgs/linux.svg',
+            title: 'Linux',
+            subtitle: 'Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.'
+        },
+        {
+            iconSrc: '/imgs/html.svg',
+            title: 'HTML5',
             subtitle: 'Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.'
         }
     ];
