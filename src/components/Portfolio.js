@@ -4,12 +4,12 @@ const Portfolio = () => {
     const portfolios = [
         {
             imgSrc: '/imgs/folio-1.jpg',
-            title: 'Web Designing',
+            title: 'Log:in',
             category: 'Category: Web Templates'
         },
         {
             imgSrc: '/imgs/folio-2.jpg',
-            title: 'Web Designing',
+            title: 'RevelUp',
             category: 'Category: Web Templates'
         },
         {
