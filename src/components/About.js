@@ -32,7 +32,7 @@ const About = () => {
                 {page === 2 && (
                     <div className="about" style={{ height: '600px', overflowY: 'auto' }}>
                         <div className="about-img-holder">
-                            <img src={process.env.PUBLIC_URL + '/imgs/study.jpg'} className="about-img" alt="Profile" />
+                            <img src={process.env.PUBLIC_URL + '/imgs/study.png'} className="about-img" alt="Profile" />
                         </div>
                         <div className="about-caption">
                             <p className="section-subtitle">More About Me</p>
