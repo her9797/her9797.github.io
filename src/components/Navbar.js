@@ -29,7 +29,7 @@ function Navbar() {
             <a className="link" onClick={() => handleSmoothScroll('about')}>About</a>
           </li>
           <li className="item">
-            <a className="link" onClick={() => handleSmoothScroll('portfolio')}>Portfolio</a>
+            <a className="link" onClick={() => handleSmoothScroll('portfolio')}>Projects</a>
           </li>
           <li className="item">
             <a className="link" onClick={() => handleSmoothScroll('skills')}>Skills</a>

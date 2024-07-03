@@ -1,24 +1,24 @@
 import React from 'react';
 
-const Portfolio = () => {
+const Projects = () => {
     const portfolios = [
         {
             imgSrc: '/imgs/folio-1.jpg',
             title: 'Log:in',
-            category: 'Category: Web Templates'
+            category: 'HR WEB'
         },
         {
             imgSrc: '/imgs/folio-2.jpg',
             title: 'RevelUp',
-            category: 'Category: Web Templates'
+            category: 'CrowdFunding WEB'
         }
     ];
 
     return (
-        <section className="section fixed-section" id="portfolio">
+        <section className="section fixed-section" id="projects">
             <div className="container text-center">
                 <p className="section-subtitle">What I Did ?</p>
-                <h6 className="section-title mb-6">Portfolio</h6>
+                <h6 className="section-title mb-6">Projects</h6>
                 <div className="row">
                     {portfolios.map((portfolio, index) => (
                         <div key={index} className="col-md-6">
@@ -40,4 +40,4 @@ const Portfolio = () => {
     );
 }
 
-export default Portfolio;
+export default Projects;
