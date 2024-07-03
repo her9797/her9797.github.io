@@ -36,7 +36,7 @@ const About = () => {
                         </div>
                         <div className="about-caption">
                             <p className="section-subtitle">More About Me</p>
-                            <h2 className="section-title mb-3">My Journey</h2>
+                            <h2 className="section-title mb-3">Communication</h2>
                             <p>
                                 6개월 동안의 풀스택 개발 교육을 통해 다양한 기술을 익히고 실제 프로젝트에 적용하는 경험을 했습니다.
                                 그 과정에서 특히 중요하게 다룬 부분 중 하나는 형상 관리와 협업이었습니다.
