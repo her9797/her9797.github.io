@@ -3374,14 +3374,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #695aa6;
-  border-color: #695aa6;
+  color: #1e549f;
+  border-color: #1e549f;
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #695aa6;
-  border-color: #695aa6;
+  background-color: #1e549f;
+  border-color: #1e549f;
 }
 
 .btn-outline-primary:focus,
