@@ -11,22 +11,17 @@ const Portfolio = () => {
             imgSrc: '/imgs/folio-2.jpg',
             title: 'RevelUp',
             category: 'Category: Web Templates'
-        },
-        {
-            imgSrc: '/imgs/folio-3.jpg',
-            title: 'Web Designing',
-            category: 'Category: Web Templates'
         }
     ];
 
     return (
-        <section className="section" id="portfolio">
+        <section className="section fixed-section" id="portfolio">
             <div className="container text-center">
                 <p className="section-subtitle">What I Did ?</p>
                 <h6 className="section-title mb-6">Portfolio</h6>
                 <div className="row">
                     {portfolios.map((portfolio, index) => (
-                        <div key={index} className="col-md-4">
+                        <div key={index} className="col-md-6">
                             <a href="#" className="portfolio-card">
                                 <img src={portfolio.imgSrc} className="portfolio-card-img"
                                     alt="Portfolio Image" />
