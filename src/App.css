@@ -3071,34 +3071,34 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #695aa6;
-  border-color: #695aa6;
+  background-color: #1e549f;
+  border-color: #1e549f;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #594c8d;
-  border-color: #544885;
+  background-color: #1e549f;
+  border-color: #1e549f;
 }
 
 .btn-primary:focus,
 .btn-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(128, 115, 179, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(115, 147, 179, 0.5);
 }
 
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #fff;
-  background-color: #695aa6;
-  border-color: #695aa6;
+  background-color: #1e549f;
+  border-color: #1e549f;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
 .show>.btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #544885;
-  border-color: #4f437d;
+  background-color: #1e549f;
+  border-color: #1e549f;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus,
@@ -12064,7 +12064,7 @@ a.text-dark:focus {
 }
 
 ::selection {
-  background: #695aa6;
+  background: #1e549f;
   color: white;
 }
 
@@ -12175,7 +12175,7 @@ h5,
 h6 {
   font-weight: 500;
   font-family: 'Baloo Paaji', cursive;
-  color: #695aa6;
+  color: #1e549f;
 }
 
 .my-font {
@@ -12230,11 +12230,15 @@ p {
 .btn-rounded {
   border-radius: 100px;
 }
+
 .service-card {
   display: flex;
-  flex-direction: column; /* 세로 방향으로 요소를 배치합니다. */
-  justify-content: center; /* 세로 중앙 정렬 */
-  align-items: center; /* 가로 중앙 정렬 */
+  flex-direction: column;
+  /* 세로 방향으로 요소를 배치합니다. */
+  justify-content: center;
+  /* 세로 중앙 정렬 */
+  align-items: center;
+  /* 가로 중앙 정렬 */
   height: 100%;
   padding: 50px;
   background: #f9f9f9;
@@ -12263,7 +12267,8 @@ p {
   overflow: hidden;
   text-overflow: ellipsis;
   position: absolute;
-  bottom: 10px; /* 하단 여백 조정 */
+  bottom: 10px;
+  /* 하단 여백 조정 */
   left: 0;
   right: 0;
 }
@@ -12291,8 +12296,8 @@ p {
   text-align: center;
   visibility: hidden;
   opacity: 0;
-  background-image: -webkit-linear-gradient(bottom, #e1dfed 0%, rgba(225, 223, 237, 0.7) 99%, rgba(225, 223, 237, 0.8) 100%);
-  background-image: linear-gradient(to top, #e1dfed 0%, rgba(225, 223, 237, 0.7) 99%, rgba(225, 223, 237, 0.8) 100%);
+  background-image: -webkit-linear-gradient(bottom, rgba(225, 223, 237, 0.7) 0%, rgba(181, 214, 255, 0.7) 99%, rgba(164, 205, 255, 0.7) 100%);
+  background-image: linear-gradient(to top, rgba(225, 223, 237, 0.7) 0%, rgba(181, 214, 255, 0.7) 99%, rgba(164, 205, 255, 0.7) 100%);
   -webkit-transition: all, 0.3s;
   transition: all, 0.3s;
   width: 0;
@@ -13167,7 +13172,7 @@ pre .code {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-image: url(/../imgs/header.jpg);
+  background-image: url(/public/imgs/header.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -13179,8 +13184,8 @@ pre .code {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: -webkit-linear-gradient(bottom, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%);
-  background-image: linear-gradient(to top, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%);
+  background-image: -webkit-linear-gradient(bottom, #fff 0%, rgba(30, 84, 159, 0.35) 99%, rgba(30, 84, 159, 0.5) 100%);
+  background-image: linear-gradient(to top, #fff 0%, rgba(30, 84, 159, 0.35) 99%, rgba(30, 84, 159, 0.5) 100%);
 }
 
 .header .header-content {
@@ -13363,6 +13368,6 @@ pre .code {
 
 .korean-text {
   font-family: 'Noto Sans KR', sans-serif;
-  font-weight: 300; 
+  font-weight: 300;
 
 }
