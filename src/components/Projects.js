@@ -8,7 +8,7 @@ const Projects = () => {
             category: 'HR WEB'
         },
         {
-            imgSrc: '/imgs/folio-2.jpg',
+            imgSrc: '/imgs/semi.jpg',
             title: 'RevelUp',
             category: 'CrowdFunding WEB'
         }
