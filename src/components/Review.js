@@ -68,7 +68,7 @@ const Review = () => {
         {
             id: 8,
             title: "Notice",
-            image: "/imgs/projects/note.gif",
+            image: "/imgs/projects/noti.gif",
             content: `- Spring 프레임워크를 활용하여 공지사항 관리 기능 구현\n
                       - Thymeleaf와 HTML을 사용하여 공지사항 등록, 수정, 삭제 기능 개발\n
                       - MyBatis를 이용하여 데이터베이스와 연동하여 공지사항 CRUD 작업 구현`,
