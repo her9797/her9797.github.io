@@ -11,7 +11,8 @@ function Header() {
         </h1>
         <p className="header-subtitle">BACKEND DEVELOPER</p>
 
-        <button className="btn btn-primary">Visit My Github</button>
+        <a href="https://github.com/her9797" className="btn btn-primary">Visit My Github</a>
+
       </div>
     </header>
   );

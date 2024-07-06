@@ -12500,8 +12500,10 @@ p {
 }
 
 .blog-card-header {
-  min-width: 350px;
-  max-width: 350px;
+  min-width: 550px;
+  max-width: 550px;
+  min-height: 300px;
+  max-height: 300px;
 }
 
 .blog-card-img {

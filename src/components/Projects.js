@@ -3,14 +3,16 @@ import React from 'react';
 const Projects = () => {
     const portfolios = [
         {
-            imgSrc: '/imgs/folio-1.jpg',
+            imgSrc: '/imgs/login.png',
             title: 'Log:in',
-            category: 'HR WEB'
+            category: 'HR WEB',
+            link: 'https://github.com/her9797/login'
         },
         {
-            imgSrc: '/imgs/semi.jpg',
+            imgSrc: '/imgs/revelup.jpg',
             title: 'RevelUp',
-            category: 'CrowdFunding WEB'
+            category: 'CrowdFunding WEB',
+            link: 'https://github.com/her9797/REVEL-UP'
         }
     ];
 
@@ -22,7 +24,7 @@ const Projects = () => {
                 <div className="row">
                     {portfolios.map((portfolio, index) => (
                         <div key={index} className="col-md-6">
-                            <a href="#" className="portfolio-card">
+                            <a href={portfolio.link} target="_blank" className="portfolio-card" rel="noopener noreferrer">
                                 <img src={portfolio.imgSrc} className="portfolio-card-img"
                                     alt="Portfolio Image" />
                                 <span className="portfolio-card-overlay">
