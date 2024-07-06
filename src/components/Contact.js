@@ -9,7 +9,7 @@ const Contact = () => {
                 {/* contact form */}
                 <form action={`mailto:hermes970120@naver.com`} method="post" encType="text/plain" className="contact-form col-md-10 col-lg-8 m-auto">
                     <div className="form-row">
-                        <div className="form-group col-sm-6">
+                        {/* <div className="form-group col-sm-6">
                             <input type="text" size="50" className="form-control" placeholder="Your Name" required />
                         </div>
                         <div className="form-group col-sm-6">
@@ -17,7 +17,7 @@ const Contact = () => {
                         </div>
                         <div className="form-group col-sm-12">
                             <textarea name="comment" id="comment" rows="6" className="form-control" placeholder="Write Something"></textarea>
-                        </div>
+                        </div> */}
                         <div className="form-group col-sm-12 mt-3">
                             <input type="submit" value="Send Message" className="btn btn-outline-primary rounded" />
                         </div>

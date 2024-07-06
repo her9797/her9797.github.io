@@ -13,9 +13,8 @@ const Footer = () => {
                     <a href="https://github.com/her9797" target="_blank" rel="noopener noreferrer">Visit My GitHub</a>
                 </p>
                 <div className="social-links text-right m-auto ml-sm-auto">
-                    <a href="javascript:void(0)" className="link"><i className="ti-youtube"></i></a>
-                    <a href="javascript:void(0)" className="link"><i className="ti-instagram"></i></a>
-                    <a href="javascript:void(0)" className="link"><i className="ti-email"></i></a>
+                    <a href="https://www.youtube.com/@her97" className="link" target="_blank" rel="noopener noreferrer"><i className="ti-youtube"></i></a>
+                    <a href="https://www.instagram.com/min.sup" className="link" target="_blank"><i className="ti-instagram"></i></a>
                 </div>
             </footer>
         </div>
