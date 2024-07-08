@@ -16,9 +16,3 @@
 
 ### `git push origin main`
 
-
-```
-기록
-
-- 7월 4일 작업 하느라 push를 못함
-```
