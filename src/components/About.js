@@ -35,7 +35,6 @@ const About = () => {
                             <img src={process.env.PUBLIC_URL + '/imgs/study.png'} className="about-img" alt="Profile" />
                         </div>
                         <div className="about-caption">
-                            <p className="section-subtitle">More About Me</p>
                             <h2 className="section-title mb-3">My Study</h2>
                             <p className='korean-text'>
                                 저는 6개월 동안의 React.js와 SpringBoot를 활용한 풀스택 개발자 교육을 통해 웹 개발 기초를 탄탄히 다졌습니다. 이 과정에서 프로젝트 기획부터 설계, 개발, 배포까지 모든 단계에 참여하며 실제 업무 환경에서의 경험을 쌓을 수 있었습니다.
@@ -52,7 +51,6 @@ const About = () => {
                             <img src={process.env.PUBLIC_URL + '/imgs/git.png'} className="about-img" alt="Profile" />
                         </div>
                         <div className="about-caption">
-                            <p className="section-subtitle">More About Me</p>
                             <h2 className="section-title mb-3">My Journey</h2>
                             <p className='korean-text'>
                                 프로젝트를 하던 과정에선 특히 중요하게 다룬 부분 중 하나는 형상 관리와 협업이었습니다.

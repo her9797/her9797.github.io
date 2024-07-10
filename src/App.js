@@ -8,6 +8,8 @@ import Projects from './components/Projects';
 import Review from './components/Review';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Introduce from './components/Introduce';
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
       <Navbar />
       <Header />
       <About />
+      <Introduce />
       <Skills />
       <Projects />
       <Review />
